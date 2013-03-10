@@ -13,7 +13,7 @@ namespace GooglePlusOAuthLogin
     {
         public static void RegisterAuth()
         {
-            OAuthWebSecurity.RegisterClient(new GooglePlusClient("808748037769.apps.googleusercontent.com", "GwaMKxJSA6v-9ItP4iAdRZZ5"), "Google+", null);
+            OAuthWebSecurity.RegisterClient(new GooglePlusClient("YOUR API KEY", "YOUR API SECRET"), "Google+", null);
         }
     }
 }
